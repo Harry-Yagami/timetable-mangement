@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+  	        <meta name="viewport" content="width=device-width">
+		<meta name="description" content="Amrita University Timetable management">
+                <meta name="keywords" content="timetable, management, generation">
+  	        <meta name="author" content="Amrit Gupta">
+
+		<title>Add Course</title>
+		<link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+	<header>
+		<div class ="container">
+			<div id="title_name">
+				<h1>Amrita Timetable Management and Generation</h1>
+			</div>
+	</header>
+	<section id="newsletter">
+      			<div class="container">
+	        <h1>Add Course</h1>
+	        <form action='HtmlToPhp.php' method= "POST" >
+	          <input type="text" name="id" placeholder="Enter Course Name" required="">
+	          <input type="text" name="title" placeholder="Enter Course ID" required="">
+		  <select name="department" required="">
+		  <option value="" disabled selected>Select department</option>
+		  <option value="1">CSE</option>
+		  <option value="2">ECE</option>
+		  <option value="3">MECH</option>
+		  <option value="4">EEE</option>
+		  <option value="5">MATHS</option>
+		  <option value="6">CIR</option>
+		  <option value="7">CHY</option>
+		  
+		 </select>
+        	  <button type="submit" class="button_1">Submit</button>
+		</form>
+	<footer>
+      <p>Amrita CSE Dept, Copyright &copy; 2018</p>
+    </footer>
+</body>
+</html>
